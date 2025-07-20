@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- mise en forme des backgradient et image en position absoluste-->
     <div class="grd1"></div>
     <div class="grd2"></div>
     <div class="grd3"></div>
     <div class="grd4"></div>
     <div class="grd5">clea</div>
     <div class="star"></div>
-    <img src="image/bg_img1.png" alt="" class="bloc1_background">
+    <img src="image/bg_img1.png" alt="" class="banner_background">
+    <img src="image/block_info_image.png" alt="" class="banner_info_background">
     <img src="image/bitcoin.png" alt="" class="bitcoin_image">
     <img src="image/monero.png" alt="" class="monero_image">
     <img src="image/litcon.png" alt="" class="litecoin_image">
@@ -105,6 +107,7 @@
                 </div>
             </div>
         </section>
+        <!--tertio_banner-->
         <section class="tertio_banner">
             <div class="container">
                 <div class="tertio_banner_content">
@@ -135,10 +138,98 @@
                             <img src="image/arrow.png" alt="arrow image" class="quarto_baner_link_arrow">
                         </div>
                     </div>
-                    <div class="quator_banner_left">
-
+                    <div class="trading_card">
+                        <table class="crypto_item">
+                            <tr>
+                                <td class="crypto_name">Bitcoin</td>
+                                <td class="crypto_abr">BTC</td>
+                                <td class="crypto_value">$56,290.30</td>
+                                <td class="crypto_trade">+1.68%</td>
+                                <td class="crypto_graphe"></td>
+                                <td class="trade_now">Trade Now<img src="image/arrow_white.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="table_line_height"></div>
+                        <table class="crypto_item">
+                            <tr>
+                                <td class="crypto_name">Ethereum</td>
+                                <td class="crypto_abr">BETH</td>
+                                <td class="crypto_value">$4,284.81</td>
+                                <td class="crypto_trade">+4.36%</td>
+                                <td class="crypto_graphe"></td>
+                                <td class="trade_now">Trade Now<img src="image/arrow_white.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="table_line_height"></div>
+                        <table class="crypto_item">
+                            <tr>
+                                <td class="crypto_name">Cardano</td>
+                                <td class="crypto_abr">ADA</td>
+                                <td class="crypto_value">$1.88</td>
+                                <td class="crypto_trade">+3.43%</td>
+                                <td class="crypto_graphe"></td>
+                                <td class="trade_now">Trade Now<img src="image/arrow_white.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="table_line_height"></div>
+                        <table class="crypto_item">
+                            <tr>
+                                <td class="crypto_name">Wax</td>
+                                <td class="crypto_abr">WAXP</td>
+                                <td class="crypto_value">$0.97</td>
+                                <td class="crypto_trade_under" >-2.63%</td>
+                                <td class="crypto_graphe"></td>
+                                <td class="trade_now">Trade Now<img src="image/arrow_white.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="table_line_height"></div>
+                        <table class="crypto_item">
+                            <tr>
+                                <td class="crypto_name">Cardano</td>
+                                <td class="crypto_abr">DOT</td>
+                                <td class="crypto_value">$4.22</td>
+                                <td class="crypto_trade">+7.56%</td>
+                                <td class="crypto_graphe"></td>
+                                <td class="trade_now">Trade Now<img src="image/arrow_white.svg" alt="">
+                                </td>
+                            </tr>
+                        </table>
                     </div>
-
+                </div>
+            </div>
+        </section>
+        <!--Quinto_banner-->
+        <section class="quinto_banner">
+            <div class="container">
+                <div class="quinto_banner_content">
+                    <div class="quinto_banner_left">
+                        <h2 class="quinto_banner_title">Take your first step into safe, secure crypto investing</h2>
+                        <p class="quinto_banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos</p>
+                        <div class="quinto_banner_link">
+                            <a href="#" class="banner_link_button">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="quinto_banner_right">
+                         <img src="image/banner5_icon.png" alt="banner image" class="quinto_banner_icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="transmission">
+            <div class="container">
+                <div class="transmission_content">
+                    <h2 class="transmission_title">Receive transmissions</h2>
+                    <p class="transmission_text">Unsubscribe at any time. <span>Privacy policy↗</span></p>
+                    <div class="email_address">
+                        <div class="email_content">
+                            <label for="email"><input type="email" placeholder=" Email Address"></label>
+                            <img src="image/arrow.svg" alt="arrow image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -150,7 +241,10 @@
                 <div class="footer_content_left">
                     <div class="footer_content_left_top_text">CoinFlip, the world's leading bitcoin ATM operator, makes is so flippin easy to by and sell bitcoin via cash, card,or bank transfer.</div>
                     <div class="footer_content_left_center_text">Sign up to get the latest in CoinFlip news, discounts, and more</div>
-                    <label for="email" ><input type="email" class="footer_content_left_email" placeholder="Email Adress"></label>
+                    <div class="email_content">
+                        <label for="email"><input type="email" placeholder=" Email Address"></label>
+                        <img src="image/arrow.svg" alt="arrow image">
+                    </div>
                     <p class="footer_content_left_bottom">2021 GPD Holdings, LIC FinCEN MSB</p>
                 </div>
                 <ul class="footer_content_center">
