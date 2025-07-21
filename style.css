@@ -23,7 +23,11 @@ img{
     width: 100%;
     height: auto;
 }
-
+td{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
+}
 .container{
     max-width: 1180px;
     margin-right: auto;
@@ -32,7 +36,18 @@ img{
 .main{
     min-height: calc(100vh - (80 + 507));
 }
-/*header*/
+
+.banner_background{
+    position: absolute;
+    object-fit: cover;
+}
+.banner_info_background{
+    position: absolute;
+    object-fit: cover;
+    top: 1045px;
+}
+
+
 .grd1{
     height: 520px;
     width: 617px;
@@ -124,11 +139,6 @@ img{
     left: 130px;
 }
 
-.bloc1_background{
-    position: absolute;
-    object-fit: cover;
-}
-
 .monero_image{
     position: absolute;
     width: 160px;
@@ -159,7 +169,7 @@ img{
 
 
 
-
+/*header*/
 
 .header_content{
     display: flex;
@@ -184,7 +194,7 @@ img{
     margin-left: 186px;
 }
 
-.header_sign_up{
+.header_sign_up {
     padding: 12px 22px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
@@ -207,12 +217,7 @@ img{
     align-items: center;
     gap: 30px;
 }
-.footer_content_left_email{
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #0B0B0F;
-    border: 1px solid #933FFE
-}
+
 .footer_content_center{
     display: grid;
     gap: 24px;
@@ -305,7 +310,7 @@ img{
     justify-content: center;
     gap: 6px;
 }
-.info_link_arrow, .quarto_baner_link_arrow{
+.info_link_arrow, .quarto_baner_link_arrow, .email_content img, .trade_now img{
     width: 24px;
 }
 
@@ -339,7 +344,9 @@ img{
 .tertio_banner_content{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-top: 106px;
+    padding-bottom: 97px;
 }
 
 .tertio_banner_icon{
@@ -400,4 +407,139 @@ img{
     margin-left: auto;
     line-height: 150%;
     text-align: center;
+}
+.trading_card{
+    margin-top: 46px;
+    padding:20px 32px;
+    background-color: rgba(26, 27, 35, 1);
+    border-radius: 25px;
+}
+
+.crypto_item tr{
+    width: 1116px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table_line_height{
+    border: 1px solid rgba(43, 44, 59, 1);
+    margin: 16px 0;
+}
+.crypto_name{
+    width: 207px;
+}
+.crypto_abr{
+    width: 91px;
+    color: rgba(185, 130, 255, 1);
+
+}
+.crypto_value{
+    width: 231px;
+    text-align: end;
+}
+.crypto_trade{
+    width: 100px;
+    color: rgba(13, 187, 124, 1);
+    text-align: end;
+}
+.crypto_trade_under{
+    width: 100px;
+    color: rgba(255, 130, 130, 1);
+    text-align: end;
+}
+.crypto_graphe{
+    width: 213px;
+}
+.trade_now{
+    display: flex;
+    width: 114px;
+    font-size: 16px;
+}
+
+/*quinto_banner*/
+
+.quinto_banner_content{
+    padding: 55px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quinto_banner_icon{
+    width: 294px;
+    margin:60px 0;
+    margin-right: 142px;
+    margin-left: 144px;
+}
+
+.quinto_banner_left{
+    max-width: 580px;
+}
+
+.quinto_banner_title{
+    font-size: 50px;
+    line-height: 130%;
+    margin-bottom: 16px;
+    font-weight: 900px;
+}
+
+.quinto_banner_text{
+    line-height: 150%;
+}
+
+.quinto_banner_link{
+    display: flex;
+    margin-top: 32px;
+}
+.quinto_banner_link_button{
+    padding: 20px 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+/*transmission*/
+.transmission_content{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.transmission_title{
+    font-size: 50px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.transmission_text{
+    margin-bottom: 32px;
+}
+.transmission_text span{
+    font-weight: bold;
+}
+
+.email_address{
+    display: flex;
+    justify-content: center;
+}
+
+
+.email_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 262px;
+    padding: 15.5px 20px;
+    align-items: center;
+    border: 1px solid rgba(24, 200, 255, 1);
+    border-radius: 15px;
+    color: rgba(86, 89, 118, 1);
+}
+
+.email_content input{
+    background-color: #0B0B0F;
+    border: none;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
 }
